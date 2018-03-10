@@ -23,12 +23,7 @@
             </head>
             <body>
                   <xsl:template match="/">
-<!--        <html>
-            <head>
-                <title>pricelist.xsl</title>
-            </head>
-            <body>-->
-                 
+
                  <div class="container">
                      <h3>Price List</h3>
                       <table  class="table" style="padding: 10px">
@@ -37,6 +32,7 @@
                             <th>Product Code</th>
                             <th>Name</th>
                             <th>Price</th>
+                            <th>Discount</th>
                             <th>Description</th>
                             
                             
@@ -58,11 +54,15 @@
                             <td>
                                 <xsl:value-of  select="price"/>
                             </td>
+                            
+                            <td style="color:red;">
+                                <xsl:value-of  select="discount"/>
+                            </td>
                           
                             <td>Description</td>
-                           
-                           
                             
+                            
+             
                         </tr>
                         </xsl:for-each>
    
@@ -70,8 +70,7 @@
                    
                  </table>
                  </div>
-<!--            </body>
-        </html>-->
+
     </xsl:template>
                 
                 
