@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    <Products>
+        <!--  
+      Garden Supplies products  
+        -->
+        <Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Orchid Tap Water Fertilizer</name>
+            <code>C01 </code>
+            <description>Very popular among serious orchid growers for all types of orchids, this fertilizer is specially formulated using nitrogen primarily in its nitrate form, which is the form most available to orchids for efficient plant utilization.  </description>
+            <price>80</price>
+            <qis>200</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>300</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Randy's Chemicals</supplier>
+                <supplier>Plant World</supplier>
+            </suppliers> 
+           
+            <image>images/tap-water-orchid-fertilizer.jpg</image>
+            <Category>Chemical</Category>
+        </Product>
+		
+		
+				
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Berry Fertilizer</name>
+            <code>C02</code>
+            <description> This organic fertilizer is ideal for in-ground garden beds as well as raised beds and containers. All-natural fertilizer provides a long-lasting, slow-release supply of nutrients. This 100% organic formula helps improve soil health and won't burn roots. </description>
+            <price>60</price>
+            <qis>200</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>300</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Randy's Chemicals</supplier>
+                <supplier>Berry World</supplier>
+            </suppliers> 
+           
+            <image>images/berry-fertilizer.jpg</image>
+            <Category>Chemical</Category>
+        </Product>
+		
+		
+		<Product discount="Seasonal">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Blossom Set Spray</name>
+            <code>C03</code>
+            <description>Get a bigger tomato harvest and enjoy your first fruits up to three weeks earlier! Blossom Set Spray helps blossoms set fruit, even in poor weather.  </description>
+            <price>100</price>
+            <qis>100</qis>
+            <reorderLevel>10</reorderLevel>   
+            <reorderQuantitiy>200</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Home Depot</supplier>
+                <supplier>Plant World</supplier>
+            </suppliers> 
+           
+            <image>images/blossom-set-spray.jpg</image>
+            <Category>Chemical</Category>
+        </Product>
+		
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Easy Grow Fertilizer</name>
+            <code>C04</code>
+            <description> Easy Bloom (11-15-13) contains no animal by-products or bone meal; is odorless, and won't attract animals. </description>
+            <price>55</price>
+            <qis>0</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>100</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Randy's Chemicals</supplier>
+                <supplier>Plant World</supplier>
+            </suppliers> 
+           
+            <image>images/easy-grow.jpg</image>
+            <Category>Chemical</Category>
+        </Product>
+		
+		
+		
+		
+	<!-- tools -->	
+	
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Pruner</name>
+            <code>T01</code>
+            <description>Made from high-quality hardened steel, the super-sharp blades make clean, precise cuts that promote rapid healing of the wood. The forged aluminum handles have a non-slip coating and a shock absorber to reduce hand strain. These pruners are loaded with smart features, including a sap groove, wire-cutting notch and non-corroding spring mechanism. </description>
+            <price>120</price>
+            <qis>50</qis>
+            <reorderLevel>45</reorderLevel>   
+            <reorderQuantitiy>100</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/pruning-shears.jpg</image>
+            <Category>Tools</Category>
+        </Product>
+		
+		<Product discount="Seasonal">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Garden Tool Belt</name>
+            <code>T02</code>
+            <description> Four pockets. One has a hook-and-loop flap closure for phone or keys. One has a netted pocket for your water bottle. Two have double openings for hand tools and small supplies. The adjustable belt has a durable clip so it's easy on, easy off. Fits waists up to 49"</description>
+            <price>200</price>
+            <qis>20</qis>
+            <reorderLevel>25</reorderLevel>   
+            <reorderQuantitiy>50</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/tool-belt.jpg</image>
+            <Category>Tools</Category>
+        </Product>
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Poly-Tough Cart</name>
+            <code>T03</code>
+            <description> Thanks to its center-mounted wheels, this rugged wheelbarrow is stable and easy to maneuver, even when hauling loads up to 300 lbs. Its unique design allows the front to tip all the way to the ground while the wheels stay put; that means you can scoop heavy stones or logs into the cart instead of lifting them.</description>
+            <price>360</price>
+            <qis>15</qis>
+            <reorderLevel>5</reorderLevel>   
+            <reorderQuantitiy>20</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/cart.jpg</image>
+            <Category>Tools</Category>
+        </Product>
+		
+		<Product discount="Seasonal">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Seed and Plant Spacing Ruler</name>
+            <code>T04</code>
+            <description> Pine, birch 20-1/2" L x 2" W x 1/2", thick Dibbler is 6" H</description>
+            <price>35</price>
+            <qis>26</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>50</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/ruler.jpg</image>
+            <Category>Tools</Category>
+        </Product>
+		
+		<Product discount="Seasonal">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Bed Cultivator</name>
+            <code>T05</code>
+            <description> Get two favorite tools in one — a swan-neck hoe on one side and a three-prong cultivator on the other. This cultivator has an 18" wooden handle, making it perfect for loosening and smoothing soil in raised beds.  </description>
+            <price>55</price>
+            <qis>20</qis>
+            <reorderLevel>10</reorderLevel>   
+            <reorderQuantitiy>20</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/bed-cultivator.jpg</image>
+            <Category>Tools</Category>
+        </Product>
+		
+	<!-- pots-->
+
+		<Product discount="Seasonal">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Seed Starting Pots</name>
+            <code>P01</code>
+            <description> SelfEco Pots are earth-friendly like biodegradable fiber pots, but they're much sturdier so they won't turn to mush when you're growing seedlings indoors.</description>
+            <price>25</price>
+            <qis>150</qis>
+            <reorderLevel>50</reorderLevel>   
+            <reorderQuantitiy>200</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/biodegradeable-pots</image>
+            <Category>Pots</Category>
+        </Product>
+		
+		<Product discount="Seasonal">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Popout Pot</name>
+            <code>P02</code>
+            <description> Recycled polypropylene.18" L x 4" W overall.Individual pots: 3-1/2" sq. x 5" H.Each pot holds 3/4 qts.; 2.88 qts. total.Water reservoir holds 7 cups.Made in USA </description>
+            <price>30</price>
+            <qis>150</qis>
+            <reorderLevel>50</reorderLevel>   
+            <reorderQuantitiy>200</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/pots-set-of-4.jpg</image>
+            <Category>Pots</Category>
+        </Product>
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Square Pebble Pots</name>
+            <code>P03</code>
+            <description>The sleek square shapes look as if they're carved from stone, but are actually cleverly crafted ceramic that complements any decorating style.</description>
+            <price>12</price>
+            <qis>22</qis>
+            <reorderLevel>30</reorderLevel>   
+            <reorderQuantitiy>200</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/square-set-of-3.jpg</image>
+            <Category>Pots</Category>
+        </Product>
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Self Watering Pots</name>
+            <code>P04</code>
+            <description>Our Self-Watering Rolling Planter has four double-wheel casters that roll effortlessly over floors, carpet, and even rough flagstone. An 8-1/2 quart water reservoir and water-level indicator help keep your plants well-irrigated and healthy. </description>
+            <price>215</price>
+            <qis>15</qis>
+            <reorderLevel>10</reorderLevel>   
+            <reorderQuantitiy>20</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/self-watering-pot.jpg</image>
+            <Category>Pots</Category>
+        </Product>
+		
+		
+		<!--DECOR-->
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Garden Edging</name>
+            <code>D01</code>
+            <description>The durable, estate-quality, matte black edging installs in minutes and can remain outdoors year-round. Set of three 15-1/2" wide sections that create 46-1/2" of edging. Installed height is 9-1/2" to 12", depending upon how deeply you "plant" the ground stakes.</description>
+            <price>20</price>
+            <qis>40</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>50</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/fence-edging.jpg</image>
+            <Category>Decor</Category>
+        </Product>
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Tea Light Stake</name>
+            <code>D02</code>
+            <description>It has a textured, matte black finish on the outside, with a golden finish on the inside to magnify the glow. We recommend our LED Tea Lights, sold separately. Not for use with open flame</description>
+            <price>30</price>
+            <qis>10</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>50</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/tealight-stake.jpg</image>
+            <Category>Decor</Category>
+        </Product>
+		
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Half Round Trellis</name>
+            <code>D03</code>
+            <description>This flat-back trellis adds a sculptural element to your landscape and is perfect for flowering vines like clematis and morning glories, as well as climbing roses. The half-round style is designed to stand against a wall.</description>
+            <price>200</price>
+            <qis>4</qis>
+            <reorderLevel>10</reorderLevel>   
+            <reorderQuantitiy>20</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/round-wall-trellis.jpg</image>
+            <Category>Decor</Category>
+        </Product>
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Garden Panel</name>
+            <code>D04</code>
+            <description>Powder-coated iron, molded glass,9-1/2" W x 47-1/4" H x 3/16" deep,Ground stakes are 6-3/4" L,Protect from freezing temperatures</description>
+            <price>50</price>
+            <qis>0</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>50</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/circles-decor.jpg</image>
+            <Category>Decor</Category>
+        </Product>
+		
+		<Product discount="Monthly">
+			<ProductType>Garden Supplies</ProductType>
+			<name>Garden Bunnies</name>
+            <code>D05</code>
+            <description> The statue is crafted from Fiberstone, a mixture of sand and stone that's reinforced with an ultra-strong fiberglass backing. Each sculpture is individually hand finished to resemble stone with a touch of moss, adding a charming authenticity. The sculpture is lightweight, less fragile than concrete, safe for outdoor use in all weather conditions, and will not crack or chip in freezing temperatures. Made by Orlandi Statuary.</description>
+            <price>60</price>
+            <qis>40</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>50</reorderQuantitiy>    
+            <suppliers>
+                <supplier>National Hardware</supplier>
+                <supplier>Garden Tool Depot</supplier>
+            </suppliers> 
+           
+            <image>images/bunnies.png</image>
+            <Category>Decor</Category>
+        </Product>
+		
+		
+		
+<!--  
+      Plant products  
+ -->
+      
+         <Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+		 <name>Glam Rock Hydregea</name>
+            <code>F01</code>
+            <description>This incredible variety of new Hydrangea will really impress with its multi coloured eye-catching flower heads. Unlike the traditional hydrangeas of old that normally come in one colour, Glam Rock has incredibly vivid flower heads, the colour can vary, but they are generally made up of pink-red petals surrounding a bright blue centre, with each petal also tipped in lime green. </description>
+            <price>50</price>
+            <qis>20</qis>
+            <reorderLevel>10</reorderLevel>   
+            <reorderQuantitiy>30</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/h-glamr3_1.jpg</image>
+            <Category>Flowering</Category>
+        </Product>
+		
+    <Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+		 <name>Flowered Butterfly Bush</name>
+            <code>F02</code>
+            <description>This Flower Power Buddleia is the very first Butterfly bush to have two different flower colours on the same stalk -
+Lavender with a gorgeious butterscotch yellow.
+Very easy to care for
+Wonderfully fragrant,
+Compact in habit and amazing flower production a
+These plants are well branched, meaning more florets of blooms compared with other varieties
+Flowers appear all summer .
+Magnet for butterflies
+Supplied as 2-3 litre pot grown plants</description>
+            <price>25</price>
+            <qis>30</qis>
+            <reorderLevel>10</reorderLevel>   
+            <reorderQuantitiy>30</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/butterfly-bush.jpg</image>
+            <Category>Flowering</Category>
+        </Product>
+    
+	
+	<Product Discount="Seasonal">
+		 <ProductType>Plant Products</ProductType>
+		 <name>Vanille Fraise</name>
+            <code>F03</code>
+            <description>New variety of Hydrangea, selected after years of trials by French breeders
+Satin white hydrangea flowers emerge in elegant cones
+The blooms gradually turn to a shade of strawberry pink as they mature
+Ideal for those tricky north facing positions
+Can flower year after year from July to September</description>
+            <price>20</price>
+            <qis>50</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>30</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/hydrangea_vanille_fraise_renhy.jpg</image>
+            <Category>Flowering</Category>
+        </Product>
+    
+	
+	<Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+		 <name>Red Honey Bush</name>
+            <code>F04</code>
+            <description>Unique winter-flowering shrub with unusual looking blooms that produce a beautifully intense fragrance
+Looks great in a shrubbery, or just in a large planter on the patio,Height and Spread: 150cm (59’’) </description>
+            <price>30</price>
+            <qis>0</qis>
+            <reorderLevel>25</reorderLevel>   
+            <reorderQuantitiy>25</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/honey-bush.jpg</image>
+            <Category>Flowering</Category>
+        </Product>
+    
+	
+	<Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+		 <name>Silver Wattle</name>
+            <code>F015</code>
+            <description>Evergreen fern-like foliage makes an attractive foil for clusters of bright yellow, fluffy ball shaped mimosa flowers. Its fragrant, nectar rich blooms are a big attraction for bees and other beneficial insects in spring. This half hardy evergreen makes an ideal specimen plant for containers, or sheltered sunny borders. An excellent focal point for a large conservatory. Supplied in 9cm pots.</description>
+            <price>45</price>
+            <qis>10</qis>
+            <reorderLevel>20</reorderLevel>   
+            <reorderQuantitiy>50</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/acacia-dealbata-flower-plant_1.jpg</image>
+            <Category>Flowering</Category>
+        </Product>
+    
+	<!-- Herbs-->
+	
+	<Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+			<name>Chives</name>
+            <code>H01</code>
+            <description>The herb to be used for salads, soups and macaroni cheese. Also has decorative qualites with lovely pink blossoms.</description>
+            <price>12</price>
+            <qis>51</qis>
+            <reorderLevel>30</reorderLevel>   
+            <reorderQuantitiy>100</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/chives.jpg</image>
+            <Category>Herbs</Category>
+        </Product>
+    
+	
+	<Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+			<name>Chives Garlic</name>
+            <code>H02</code>
+            <description>An attractive perennial closely related to common Chives but with a mild garlic, rather than onion flavour. The blossom is a flat headed spray of star-shaped flowers that faintly smell of roses, so if grown indoors on a sunny windowsill they perfume your kitchen and can be as pretty as any flowering houseplant.</description>
+            <price>15</price>
+            <qis>23</qis>
+            <reorderLevel>30</reorderLevel>   
+            <reorderQuantitiy>100</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/chives-garlic.jpg</image>
+            <Category>Herbs</Category>
+        </Product>
+    
+	
+	<Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+			<name>Sage</name>
+            <code>H03</code>
+            <description>Sage is a highly productive perennial herb that grows into a medium-sized shrub up to around waist height. Common sage is evergreen which means it holds its dusty grayish green rounded leaves year round. There are also varieties available with purple and variegated green and yellow foliage.</description>
+            <price>25</price>
+            <qis>30</qis>
+            <reorderLevel>25</reorderLevel>   
+            <reorderQuantitiy>100</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/sage.jpg</image>
+            <Category>Herbs</Category>
+        </Product>
+    
+	
+	<Product Discount="Seasonal">
+		 <ProductType>Plant Products</ProductType>
+			<name>Thyme Pizza</name>
+            <code>H04</code>
+            <description>Lovely mauve to pink flowers in mid-summer seems to display how much this thyme likes the heat. It can do without water far better than most plants and will thrive well in the heat of a rockery. But as it grows to form a mound about 30cm tall it actually provides shade and a little protection for its own roots. Likes a well-drained soil.</description>
+            <price>36</price>
+            <qis>25</qis>
+            <reorderLevel>30</reorderLevel>   
+            <reorderQuantitiy>100</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/thyme-pizza.jpg</image>
+            <Category>Herbs</Category>
+        </Product>
+   
+	
+	<Product Discount="Monthly">
+		 <ProductType>Plant Products</ProductType>
+			<name>Artichoke</name>
+            <code>H05</code>
+            <description>Make this one a feature of your garden. If your use is for the lower leaves and you don't eat the flower bud you will be rewarded with an enormous stunning mauve flower in summer. Easy to grow from seed, but best grown in punnets and planted out when large enough.</description>
+            <price>20</price>
+            <qis>33</qis>
+            <reorderLevel>30</reorderLevel>   
+            <reorderQuantitiy>100</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Flowers Co.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/art.jpg</image>
+            <Category>Herbs</Category>
+        </Product>
+		
+		<!-- Fruit-->
+		<Product Discount="Monthly">
+			<ProductType>Plant Products</ProductType>
+			<name>Blue Berries</name>
+            <code>FR01</code>
+            <description>Blueberry Powder Blue a popular rabbiteye selection with light blue, firm fruit with sweet flavour. Ripens later in summer. Vigorous and upright grower. Best crops pollinated with another rabbiteye varitety. Needs an acid soil and a long growing season.</description>
+            <price>12</price>
+            <qis>36</qis>
+            <reorderLevel>15</reorderLevel>   
+            <reorderQuantitiy>40</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Fruit Plants Inc.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/blue-berries.jpg</image>
+            <Category>Fruits</Category>
+        </Product>
+		<Product Discount="Monthly">
+			<ProductType>Plant Products</ProductType>
+			<name>Apple</name>
+            <code>FR02</code>
+            <description>An exciting new release bred by those who gave us 'Jazz'. Early large red apple with sweet, crisp, juicy flesh with mild flavour. Best with a spray programme. Free standing tree.</description>
+            <price>20</price>
+            <qis>27</qis>
+            <reorderLevel>15</reorderLevel>   
+            <reorderQuantitiy>30</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Fruit Plants Inc.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/apples.png</image>
+            <Category>Fruits</Category>
+        </Product>
+		<Product Discount="Monthly">
+			<ProductType>Plant Products</ProductType>
+			<name>Pear</name>
+            <code>FR03</code>
+            <description>Rounded greenish - yellow fruit with a pink blush. Pollinate with Winter Nelis. Current height - 1.3m+</description>
+            <price>7</price>
+            <qis>23</qis>
+            <reorderLevel>15</reorderLevel>   
+            <reorderQuantitiy>20</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Fruit Plants Inc.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/pear.jpg</image>
+            <Category>Fruits</Category>
+        </Product>
+		
+		<Product Discount="Monthly">
+			<ProductType>Plant Products</ProductType>
+			<name>Lemon Mayer</name>
+            <code>FR04</code>
+            <description> </description>
+            <price>12</price>
+            <qis>20</qis>
+            <reorderLevel>25</reorderLevel>   
+            <reorderQuantitiy>40</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Fruit Plants Inc.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/lemon-mayer.jpg</image>
+            <Category>Fruits</Category>
+        </Product>
+		<Product Discount="Monthly">
+			<ProductType>Plant Products</ProductType>
+			<name>Cherry</name>
+            <code>FR05</code>
+            <description>From Yugoslavia, this Morello type cherry has dark red skin and flesh. This small tree is ideal for smaller gardens and can be used to make kirsch. (Sour/Tart)</description>
+            <price>15</price>
+            <qis>16</qis>
+            <reorderLevel>10</reorderLevel>   
+            <reorderQuantitiy>25</reorderQuantitiy>    
+            <suppliers>
+                <supplier>Fruit Plants Inc.</supplier>
+                <supplier>Garden Delights</supplier>
+            </suppliers> 
+            
+            <image>images/cherry.jpg</image>
+            <Category>Fruits</Category>
+        </Product>
+		
+		
+		
+    </Products>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
