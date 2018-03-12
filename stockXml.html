@@ -1,100 +1,728 @@
 <html>
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>OutOfStockLowStock.xsl</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title>ListofPrices.xsl</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
-<h3> Low Stocked Supplies</h3>
+<h3>Price List</h3>
 <table class="table" style="padding: 10px">
 <thead>
-<tr bgcolor="#09a8fa">
-<th>Suppliers</th><th>Product Code</th><th>Name</th><th>Price</th><th>Image</th>
+<tr bgcolor="09a8fa">
+<th>Product Code</th><th>Name</th><th>Price</th><th>Discount</th><th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Randy's Chemicals |   
-                                       Plant World |   
-                                       </td><td>C04</td><td>Easy Grow Fertilizer</td><td>55</td><td><img width="100" height="100" src="images/easy-grow.jpg"></td>
-</tr>
-<tr>
-<td>National Hardware |   
-                                       Garden Tool Depot |   
-                                       </td><td>D02</td><td>Tea Light Stake</td><td>30</td><td><img width="100" height="100" src="images/tealight-stake.jpg"></td>
-</tr>
-<tr>
-<td>National Hardware |   
-                                       Garden Tool Depot |   
-                                       </td><td>D03</td><td>Half Round Trellis</td><td>200</td><td><img width="100" height="100" src="images/round-wall-trellis.jpg"></td>
-</tr>
-<tr>
-<td>National Hardware |   
-                                       Garden Tool Depot |   
-                                       </td><td>D04</td><td>Garden Panel</td><td>50</td><td><img width="100" height="100" src="images/circles-decor.jpg"></td>
-</tr>
-<tr>
-<td>Flowers Co. |   
-                                       Garden Delights |   
-                                       </td><td>F015</td><td>Silver Wattle</td><td>45</td><td><img width="100" height="100" src="images/acacia-dealbata-flower-plant_1.jpg"></td>
-</tr>
-<tr>
-<td>Flowers Co. |   
-                                       Garden Delights |   
-                                       </td><td>F04</td><td>Red Honey Bush</td><td>30</td><td><img width="100" height="100" src="images/honey-bush.jpg"></td>
-</tr>
-<tr>
-<td>Fruit Plants Inc. |   
-                                       Garden Delights |   
-                                       </td><td>FR04</td><td>Lemon Mayer</td><td>12</td><td><img width="100" height="100" src="images/lemon-mayer.jpg"></td>
-</tr>
-<tr>
-<td>Flowers Co. |   
-                                       Garden Delights |   
-                                       </td><td>H02</td><td>Chives Garlic</td><td>15</td><td><img width="100" height="100" src="images/chives-garlic.jpg"></td>
-</tr>
-<tr>
-<td>Flowers Co. |   
-                                       Garden Delights |   
-                                       </td><td>H04</td><td>Thyme Pizza</td><td>36</td><td><img width="100" height="100" src="images/thyme-pizza.jpg"></td>
-</tr>
-<tr>
-<td>National Hardware |   
-                                       Garden Tool Depot |   
-                                       </td><td>P03</td><td>Square Pebble Pots</td><td>12</td><td><img width="100" height="100" src="images/square-set-of-3.jpg"></td>
-</tr>
-<tr>
-<td>National Hardware |   
-                                       Garden Tool Depot |   
-                                       </td><td>T02</td><td>Garden Tool Belt</td><td>200</td><td><img width="100" height="100" src="images/tool-belt.jpg"></td>
-</tr>
-</tbody>
-</table>
+<td>C01 </td><td><span>Orchid Tap Water Fertilizer</span></td><td>$80.00 </td><td style="color:red;">$60.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#C01 ">Description</button>
+<div class="modal fade" id="C01 " role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Orchid Tap Water Fertilizer</h4>
 </div>
-<div class="container">
-<h3> Supplies Out of Stock</h3>
-<table class="table" style="padding: 10px">
-<thead>
-<tr bgcolor="#09a8fa">
-<th>Suppliers</th><th>Product Code</th><th>Name</th><th>Price</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Randy's Chemicals |   
-                                       Plant World |   
-                                       </td><td>C04</td><td>Easy Grow Fertilizer</td><td>55</td>
-</tr>
-<tr>
-<td>National Hardware |   
-                                       Garden Tool Depot |   
-                                       </td><td>D04</td><td>Garden Panel</td><td>50</td>
+<div class="modal-body">
+<p>Very popular among serious orchid growers for all types of orchids, this fertilizer is specially formulated using nitrogen primarily in its nitrate form, which is the form most available to orchids for efficient plant utilization.  </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/tap-water-orchid-fertilizer.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
 </tr>
 <tr>
-<td>Flowers Co. |   
-                                       Garden Delights |   
-                                       </td><td>F04</td><td>Red Honey Bush</td><td>30</td>
+<td>C02</td><td><span>Berry Fertilizer</span></td><td>$60.00  </td><td style="color:red;">$60.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#C02">Description</button>
+<div class="modal fade" id="C02" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Berry Fertilizer</h4>
+</div>
+<div class="modal-body">
+<p> This organic fertilizer is ideal for in-ground garden beds as well as raised beds and containers. All-natural fertilizer provides a long-lasting, slow-release supply of nutrients. This 100% organic formula helps improve soil health and won't burn roots. </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/berry-fertilizer.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>C03</td><td><span>Blossom Set Spray</span></td><td>$100.00 </td><td style="color:red;">$60.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#C03">Description</button>
+<div class="modal fade" id="C03" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Blossom Set Spray</h4>
+</div>
+<div class="modal-body">
+<p>Get a bigger tomato harvest and enjoy your first fruits up to three weeks earlier! Blossom Set Spray helps blossoms set fruit, even in poor weather.  </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/blossom-set-spray.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>C04</td><td><span>Easy Grow Fertilizer</span></td><td>$55.00 </td><td style="color:red;">$35.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#C04">Description</button>
+<div class="modal fade" id="C04" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Easy Grow Fertilizer</h4>
+</div>
+<div class="modal-body">
+<p> Easy Bloom (11-15-13) contains no animal by-products or bone meal; is odorless, and won't attract animals. </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/easy-grow.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>D01</td><td><span>Garden Edging</span></td><td>$20.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#D01">Description</button>
+<div class="modal fade" id="D01" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Garden Edging</h4>
+</div>
+<div class="modal-body">
+<p>The durable, estate-quality, matte black edging installs in minutes and can remain outdoors year-round. Set of three 15-1/2" wide sections that create 46-1/2" of edging. Installed height is 9-1/2" to 12", depending upon how deeply you "plant" the ground stakes.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/fence-edging.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>D02</td><td><span>Tea Light Stake</span></td><td>$30.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#D02">Description</button>
+<div class="modal fade" id="D02" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Tea Light Stake</h4>
+</div>
+<div class="modal-body">
+<p>It has a textured, matte black finish on the outside, with a golden finish on the inside to magnify the glow. We recommend our LED Tea Lights, sold separately. Not for use with open flame</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/tealight-stake.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>D03</td><td><span>Half Round Trellis</span></td><td>$200.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#D03">Description</button>
+<div class="modal fade" id="D03" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Half Round Trellis</h4>
+</div>
+<div class="modal-body">
+<p>This flat-back trellis adds a sculptural element to your landscape and is perfect for flowering vines like clematis and morning glories, as well as climbing roses. The half-round style is designed to stand against a wall.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/round-wall-trellis.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>D04</td><td><span>Garden Panel</span></td><td>$50.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#D04">Description</button>
+<div class="modal fade" id="D04" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Garden Panel</h4>
+</div>
+<div class="modal-body">
+<p>Powder-coated iron, molded glass,9-1/2" W x 47-1/4" H x 3/16" deep,Ground stakes are 6-3/4" L,Protect from freezing temperatures</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/circles-decor.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>D05</td><td><span>Garden Bunnies</span></td><td>$25.00 </td><td style="color:red;">$60.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#D05">Description</button>
+<div class="modal fade" id="D05" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Garden Bunnies</h4>
+</div>
+<div class="modal-body">
+<p> The statue is crafted from Fiberstone, a mixture of sand and stone that's reinforced with an ultra-strong fiberglass backing. Each sculpture is individually hand finished to resemble stone with a touch of moss, adding a charming authenticity. The sculpture is lightweight, less fragile than concrete, safe for outdoor use in all weather conditions, and will not crack or chip in freezing temperatures. Made by Orlandi Statuary.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/bunnies.png"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>F01</td><td><span>Glam Rock Hydregea</span></td><td>$50.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#F01">Description</button>
+<div class="modal fade" id="F01" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Glam Rock Hydregea</h4>
+</div>
+<div class="modal-body">
+<p>This incredible variety of new Hydrangea will really impress with its multi coloured eye-catching flower heads. Unlike the traditional hydrangeas of old that normally come in one colour, Glam Rock has incredibly vivid flower heads, the colour can vary, but they are generally made up of pink-red petals surrounding a bright blue centre, with each petal also tipped in lime green. </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/h-glamr3_1.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>F015</td><td><span>Silver Wattle</span></td><td>$45.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#F015">Description</button>
+<div class="modal fade" id="F015" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Silver Wattle</h4>
+</div>
+<div class="modal-body">
+<p>Evergreen fern-like foliage makes an attractive foil for clusters of bright yellow, fluffy ball shaped mimosa flowers. Its fragrant, nectar rich blooms are a big attraction for bees and other beneficial insects in spring. This half hardy evergreen makes an ideal specimen plant for containers, or sheltered sunny borders. An excellent focal point for a large conservatory. Supplied in 9cm pots.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/acacia-dealbata-flower-plant_1.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>F02</td><td><span>Flowered Butterfly Bush</span></td><td>$25.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#F02">Description</button>
+<div class="modal fade" id="F02" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Flowered Butterfly Bush</h4>
+</div>
+<div class="modal-body">
+<p>This Flower Power Buddleia is the very first Butterfly bush to have two different flower colours on the same stalk -
+Lavender with a gorgeious butterscotch yellow.
+Very easy to care for
+Wonderfully fragrant,
+Compact in habit and amazing flower production a
+These plants are well branched, meaning more florets of blooms compared with other varieties
+Flowers appear all summer .
+Magnet for butterflies
+Supplied as 2-3 litre pot grown plants</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/butterfly-bush.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>F03</td><td><span>Vanille Fraise</span></td><td>$20.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#F03">Description</button>
+<div class="modal fade" id="F03" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Vanille Fraise</h4>
+</div>
+<div class="modal-body">
+<p>New variety of Hydrangea, selected after years of trials by French breeders
+Satin white hydrangea flowers emerge in elegant cones
+The blooms gradually turn to a shade of strawberry pink as they mature
+Ideal for those tricky north facing positions
+Can flower year after year from July to September</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/hydrangea_vanille_fraise_renhy.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>F04</td><td><span>Red Honey Bush</span></td><td>$30.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#F04">Description</button>
+<div class="modal fade" id="F04" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Red Honey Bush</h4>
+</div>
+<div class="modal-body">
+<p>Unique winter-flowering shrub with unusual looking blooms that produce a beautifully intense fragrance
+Looks great in a shrubbery, or just in a large planter on the patio,Height and Spread: 150cm (59&rsquo;&rsquo;) </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/honey-bush.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>FR01</td><td><span>Blue Berries</span></td><td>$12.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#FR01">Description</button>
+<div class="modal fade" id="FR01" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Blue Berries</h4>
+</div>
+<div class="modal-body">
+<p>Blueberry Powder Blue a popular rabbiteye selection with light blue, firm fruit with sweet flavour. Ripens later in summer. Vigorous and upright grower. Best crops pollinated with another rabbiteye varitety. Needs an acid soil and a long growing season.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/blue-berries.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>FR02</td><td><span>Apple</span></td><td>$20.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#FR02">Description</button>
+<div class="modal fade" id="FR02" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Apple</h4>
+</div>
+<div class="modal-body">
+<p>An exciting new release bred by those who gave us 'Jazz'. Early large red apple with sweet, crisp, juicy flesh with mild flavour. Best with a spray programme. Free standing tree.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/apples.png"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>FR03</td><td><span>Pear</span></td><td>$7.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#FR03">Description</button>
+<div class="modal fade" id="FR03" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Pear</h4>
+</div>
+<div class="modal-body">
+<p>Rounded greenish - yellow fruit with a pink blush. Pollinate with Winter Nelis. Current height - 1.3m+</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/pear.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>FR04</td><td><span>Lemon Mayer</span></td><td>$12.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#FR04">Description</button>
+<div class="modal fade" id="FR04" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Lemon Mayer</h4>
+</div>
+<div class="modal-body">
+<p> 
+</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/lemon-mayer.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>FR05</td><td><span>Cherry</span></td><td>$15.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#FR05">Description</button>
+<div class="modal fade" id="FR05" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Cherry</h4>
+</div>
+<div class="modal-body">
+<p>From Yugoslavia, this Morello type cherry has dark red skin and flesh. This small tree is ideal for smaller gardens and can be used to make kirsch. (Sour/Tart)</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/cherry.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>H01</td><td><span>Chives</span></td><td>$12.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#H01">Description</button>
+<div class="modal fade" id="H01" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Chives</h4>
+</div>
+<div class="modal-body">
+<p>The herb to be used for salads, soups and macaroni cheese. Also has decorative qualites with lovely pink blossoms.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/chives.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>H02</td><td><span>Chives Garlic</span></td><td>$15.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#H02">Description</button>
+<div class="modal fade" id="H02" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Chives Garlic</h4>
+</div>
+<div class="modal-body">
+<p>An attractive perennial closely related to common Chives but with a mild garlic, rather than onion flavour. The blossom is a flat headed spray of star-shaped flowers that faintly smell of roses, so if grown indoors on a sunny windowsill they perfume your kitchen and can be as pretty as any flowering houseplant.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/chives-garlic.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>H03</td><td><span>Sage</span></td><td>$25.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#H03">Description</button>
+<div class="modal fade" id="H03" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Sage</h4>
+</div>
+<div class="modal-body">
+<p>Sage is a highly productive perennial herb that grows into a medium-sized shrub up to around waist height. Common sage is evergreen which means it holds its dusty grayish green rounded leaves year round. There are also varieties available with purple and variegated green and yellow foliage.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/sage.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>H04</td><td><span>Thyme Pizza</span></td><td>$36.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#H04">Description</button>
+<div class="modal fade" id="H04" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Thyme Pizza</h4>
+</div>
+<div class="modal-body">
+<p>Lovely mauve to pink flowers in mid-summer seems to display how much this thyme likes the heat. It can do without water far better than most plants and will thrive well in the heat of a rockery. But as it grows to form a mound about 30cm tall it actually provides shade and a little protection for its own roots. Likes a well-drained soil.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/thyme-pizza.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>H05</td><td><span>Artichoke</span></td><td>$20.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#H05">Description</button>
+<div class="modal fade" id="H05" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Artichoke</h4>
+</div>
+<div class="modal-body">
+<p>Make this one a feature of your garden. If your use is for the lower leaves and you don't eat the flower bud you will be rewarded with an enormous stunning mauve flower in summer. Easy to grow from seed, but best grown in punnets and planted out when large enough.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/art.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>P01</td><td><span>Seed Starting Pots</span></td><td>$25.00 </td><td style="color:red;">$20.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#P01">Description</button>
+<div class="modal fade" id="P01" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Seed Starting Pots</h4>
+</div>
+<div class="modal-body">
+<p> SelfEco Pots are earth-friendly like biodegradable fiber pots, but they're much sturdier so they won't turn to mush when you're growing seedlings indoors.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/biodegradeable-pots"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>P02</td><td><span>Popout Pot</span></td><td>$30.00 </td><td style="color:red;">$200.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#P02">Description</button>
+<div class="modal fade" id="P02" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Popout Pot</h4>
+</div>
+<div class="modal-body">
+<p> Recycled polypropylene.18" L x 4" W overall.Individual pots: 3-1/2" sq. x 5" H.Each pot holds 3/4 qts.; 2.88 qts. total.Water reservoir holds 7 cups.Made in USA </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/pots-set-of-4.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>P03</td><td><span>Square Pebble Pots</span></td><td>$12.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#P03">Description</button>
+<div class="modal fade" id="P03" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Square Pebble Pots</h4>
+</div>
+<div class="modal-body">
+<p>The sleek square shapes look as if they're carved from stone, but are actually cleverly crafted ceramic that complements any decorating style.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/square-set-of-3.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>P04</td><td><span>Self Watering Pots</span></td><td>$215.00 </td><td style="color:red;">-</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#P04">Description</button>
+<div class="modal fade" id="P04" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Self Watering Pots</h4>
+</div>
+<div class="modal-body">
+<p>Our Self-Watering Rolling Planter has four double-wheel casters that roll effortlessly over floors, carpet, and even rough flagstone. An 8-1/2 quart water reservoir and water-level indicator help keep your plants well-irrigated and healthy. </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/self-watering-pot.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>T01</td><td><span>Pruner</span></td><td>$120.00 </td><td style="color:red;">$100.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#T01">Description</button>
+<div class="modal fade" id="T01" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Pruner</h4>
+</div>
+<div class="modal-body">
+<p>Made from high-quality hardened steel, the super-sharp blades make clean, precise cuts that promote rapid healing of the wood. The forged aluminum handles have a non-slip coating and a shock absorber to reduce hand strain. These pruners are loaded with smart features, including a sap groove, wire-cutting notch and non-corroding spring mechanism. </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/pruning-shears.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>T02</td><td><span>Garden Tool Belt</span></td><td>$200.00 </td><td style="color:red;">$180.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#T02">Description</button>
+<div class="modal fade" id="T02" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Garden Tool Belt</h4>
+</div>
+<div class="modal-body">
+<p> Four pockets. One has a hook-and-loop flap closure for phone or keys. One has a netted pocket for your water bottle. Two have double openings for hand tools and small supplies. The adjustable belt has a durable clip so it's easy on, easy off. Fits waists up to 49"</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/tool-belt.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>T03</td><td><span>Poly-Tough Cart</span></td><td>$3350.00 </td><td style="color:red;">$3000.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#T03">Description</button>
+<div class="modal fade" id="T03" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Poly-Tough Cart</h4>
+</div>
+<div class="modal-body">
+<p> Thanks to its center-mounted wheels, this rugged wheelbarrow is stable and easy to maneuver, even when hauling loads up to 300 lbs. Its unique design allows the front to tip all the way to the ground while the wheels stay put; that means you can scoop heavy stones or logs into the cart instead of lifting them.</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/cart.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>T04</td><td><span>Seed and Plant Spacing Ruler</span></td><td>$35.00 </td><td style="color:red;">$30.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#T04">Description</button>
+<div class="modal fade" id="T04" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Seed and Plant Spacing Ruler</h4>
+</div>
+<div class="modal-body">
+<p> Pine, birch 20-1/2" L x 2" W x 1/2", thick Dibbler is 6" H</p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/ruler.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>T05</td><td><span>Bed Cultivator</span></td><td>$55.00 </td><td style="color:red;">$40.00</td><td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#T05">Description</button>
+<div class="modal fade" id="T05" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Bed Cultivator</h4>
+</div>
+<div class="modal-body">
+<p> Get two favorite tools in one &mdash; a swan-neck hoe on one side and a three-prong cultivator on the other. This cultivator has an 18" wooden handle, making it perfect for loosening and smoothing soil in raised beds.  </p>
+</div>
+<div class="modal-body">
+<img height="200" width="200" src="images/bed-cultivator.jpg"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
 </tr>
 </tbody>
 </table>

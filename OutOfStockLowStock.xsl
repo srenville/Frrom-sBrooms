@@ -22,13 +22,6 @@
             </head>
             <body>
 
-
-
-<!--        <html>
-            <head>
-                <title>suppliers.xsl</title>
-            </head>
-            <body>-->
                 <div class="container">
                  <h3> Low Stocked Supplies</h3>
                  <table  class="table" style="padding: 10px">

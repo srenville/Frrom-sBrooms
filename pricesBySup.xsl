@@ -23,13 +23,6 @@
             </head>
             <body>
             
-
-
-<!--        <html>
-            <head>
-                <title>suppliers.xsl</title>
-            </head>
-            <body>-->
                 <div class="container">
                  <h3> Price List by Suppliers</h3>
                  <table  class="table" style="padding: 10px">
@@ -45,12 +38,7 @@
                     <tbody>
                     <xsl:for-each select="Products/Product">
                           <xsl:sort order="ascending" select="suppliers/supplier"/>
-<!--                            <tr>
-                                <td>
-                                    <xsl:variable name="imagefromxml" select="image"/>
-                                    <img src="{$imagefromxml}"></img>
-                                </td>
-                            </tr>-->
+
                             <tr>
                                 <td>
                                        <xsl:for-each select="suppliers/supplier">
@@ -76,16 +64,6 @@
                 </tbody>
                  </table>
                 </div>
-<!--            </body>
-        </html>-->
-   
-
-<!--http://stackoverflow.com/questions/666584/how-do-i-generate-a-comma-separated-list-with-xslt-xpath-->
-
-<!--http://www.java2s.com/Tutorial/XML/0100__XSLT-stylesheet/iftestpositionlast.htm-->
-                
-                
-                
                 
                 
             </body>
